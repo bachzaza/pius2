@@ -1,2 +1,1 @@
-# pius2
-lab2
+# pius_lab_2
