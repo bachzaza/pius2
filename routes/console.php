@@ -2,6 +2,8 @@
 
 use Illuminate\Foundation\Inspiring;
 use Illuminate\Support\Facades\Artisan;
+use App\Models\Product;
+use App\Models\Category;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,3 +19,15 @@ use Illuminate\Support\Facades\Artisan;
 Artisan::command('inspire', function () {
     $this->comment(Inspiring::quote());
 })->purpose('Display an inspiring quote');
+
+/*
+|    Консольная команда должна возвращать символьный код категории у
+|    товара с идентификатором равным {id}. Если товара с данным {id} не
+|    суещствует, то необходимо выбросить соответствующее исключение.
+*/
+
+Artisan::command('MyTestCommand', function () {
+    
+    
+
+})->purpose('Try found product By ID');
